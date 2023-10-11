@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <link rel=canonical href="https://axesmodular.com/services.html">
+      <link rel="icon" href="./img/favicon.png">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- BootStrap  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" />
+  <!-- FontAwesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./splide-4.1.3/dist/css/splide-core.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+        
+          <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MPESJNE45Z">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MPESJNE45Z');
+</script>
+    <title>Service</title>
+    <style>
+   
+   
+   .kitchen-baner{
+           background-image: url(./img/modular__services56.png);
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            object-fit: cover;
+            position: relative;
+       }
+       .kitchen-form{
+          position: absolute;
+          bottom: 0;
+           right: 3%;
+           
+       }
+      
+       
+       .kitchen-baner h1{
+    color: #fff;
+    z-index: 5;
+    display: flex;
+    position: absolute;
+    top: 7rem;
+    left: 30%;
+    font-weight:700;
+}
+
+
+@media screen and (max-width: 786px){
+    .kitchen-baner h1{
+    color: #fff;
+    z-index: 5;
+    display: flex;
+    position: absolute;
+    /*top: 7rem;*/
+    inset: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    /*width: 100%;*/
+    /*margin: auto;*/
+}
+  .kitchen-baner{
+           background-image: url(./img/modular__services56.png);
+            background-position: center;
+            background-size: cover;
+            height: 25vh;
+            object-fit: cover;
+            position: relative;
+       }
+}
+.container-form{
+  background: #fff;
+  width: 500px;
+  height: 65vh;
+  padding: 0px 20px 10px 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.form{
+  background: #fff !important;
+}
+.container-form .text{
+  text-align: center;
+  font-size: 41px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  background: #000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container-form form .form-row{
+  display: flex;
+  margin: 1rem 0;
+}
+form .form-row .input-data{
+  width: 100%;
+  height: 40px;
+  margin: 0 20px;
+  position: relative;
+}
+form .form-row .textarea{
+  height: 70px;
+}
+.input-data input,
+.textarea textarea{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid rgba(0,0,0, 0.12);
+}
+.input-data input:focus ~ label, .textarea textarea:focus ~ label,
+.input-data input:valid ~ label, .textarea textarea:valid ~ label{
+  transform: translateY(-20px);
+  font-size: 14px;
+  color: red;
+}
+.textarea textarea{
+  resize: none;
+  padding-top: 10px;
+}
+.input-data label{
+  position: absolute;
+  pointer-events: none;
+  bottom: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.textarea label{
+  width: 100%;
+  bottom: 40px;
+  background: #fff;
+}
+.input-data .underliner{
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+}
+.input-data .underliner:before{
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background:red;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+.input-data input:focus ~ .underliner:before,
+.input-data input:valid ~ .underliner:before,
+.textarea textarea:focus ~ .underliner:before,
+.textarea textarea:valid ~ .underliner:before{
+  transform: scale(1);
+}
+.submit-btn .input-data{
+  overflow: hidden;
+  height: 45px!important;
+  width: 25%!important;
+}
+.submit-btn .input-data .inner{
+  height: 100%;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  background: red;
+  transition: all 0.4s;
+}
+.submit-btn .input-data:hover .inner{
+  left: 0;
+}
+.submit-btn .input-data input{
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+@media (max-width: 700px) {
+  .container-form{
+    display: none;
+  }
+  
+.dark {
+  background: #110f16;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+#pageHeaderTitle {
+  margin: 3.5rem 0;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight:700;
+}
+}
+
+ 
+
+/*********************************** Cards **************************/
+.postcard {
+  flex-wrap: wrap;
+  display: flex;
+  box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.66);
+  border-radius: 10px;
+  margin: 0 0 2rem 0;
+  overflow: hidden;
+  position: relative;
+  color: #ffffff;
+    height: fit-content; /*before height is not there*/
+}
+.postcard.dark {
+  background-color: #18151f;
+}
+
+.postcard .t-dark {
+  color: #18151f;
+}
+.postcard a {
+  color: inherit;
+}
+.postcard p,
+.postcard .p {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.postcard .small {
+  font-size: 80%;
+}
+.postcard .postcard__title {
+  font-size: 1.75rem;
+}
+.postcard .postcard__img {
+  max-height: 180px;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.postcard .postcard__img_link {
+  display: contents;
+}
+.postcard .postcard__bar {
+  width: 50px;
+  height: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #424242;
+  transition: width 0.2s ease;
+}
+.postcard .postcard__text {
+  padding: 1.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.postcard .postcard__preview-txt {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: justify;
+  height: 100%;
+}
+
+.postcard:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(-70deg, #424242, transparent 50%);
+  opacity: 1;
+  border-radius: 10px;
+}
+.postcard:hover .postcard__bar {
+  width: 100px;
+}
+
+@media screen and (min-width: 769px) {
+  .postcard {
+    flex-wrap: inherit;
+  }
+  .postcard .postcard__title {
+    font-size: 2rem;
+    
+  }
+
+  .postcard .postcard__img {
+    max-width: 450px;
+    max-height: 100%;
+    transition: transform 0.3s ease;
+  }
+  .postcard .postcard__text {
+    padding: 2rem;              /*change 3rem */
+    width: 100%;
+  }
+  .postcard .media.postcard__text:before {
+    content: "";
+    position: absolute;
+    display: block;
+    background: #18151f;
+    top: -20%;
+    height: 130%;
+    width: 55px;       /* change 55px */
+  }
+  .postcard:hover .postcard__img {
+    transform: scale(1.1);
+  }
+  .postcard:nth-child(2n+1) {
+    flex-direction: row;
+  }
+  .postcard:nth-child(2n+0) {
+    flex-direction: row-reverse;
+  }
+  .postcard:nth-child(2n+1) .postcard__text::before {
+    left: -16px !important;     /*change -12px */
+    transform: rotate(4deg);
+  }
+  .postcard:nth-child(2n+0) .postcard__text::before {
+    left: 615px !important;     /*change -12px */
+    transform: rotate(-4deg);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .postcard__text {
+    padding: 2rem 3.5rem;
+  }
+
+  .postcard__text:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: -20%;
+    height: 130%;
+    width: 75px;       /* change 55px */
+  }
+
+  .postcard.dark .postcard__text:before {
+    /*background: #18151f;*/
+  }
+
+  .postcard.light .postcard__text:before {
+    background: #e1e5ea;
+  }
+}
+
+.green .postcard__title:hover {
+  color: #79dd09;
+}
+
+.green .postcard__bar {
+  background-color: #79dd09;
+}
+
+.green::before {
+  background-image: linear-gradient(-30deg, rgba(121, 221, 9, 0.1), transparent 50%);
+}
+
+.green:nth-child(2n)::before {
+  background-image: linear-gradient(30deg, rgba(121, 221, 9, 0.1), transparent 50%);
+}
+
+.blue .postcard__title:hover {
+  color: #0076bd;
+}
+
+.blue .postcard__bar {
+  background-color: #0076bd;
+}
+
+.blue::before {
+  background-image: linear-gradient(-30deg, rgba(0, 118, 189, 0.1), transparent 50%);
+}
+
+.blue:nth-child(2n)::before {
+  background-image: linear-gradient(30deg, rgba(0, 118, 189, 0.1), transparent 50%);
+}
+
+.red .postcard__title:hover {
+  color: #bd150b;
+}
+
+.red .postcard__bar {
+  background-color: #bd150b;
+}
+
+.red::before {
+  background-image: linear-gradient(-30deg, rgba(189, 21, 11, 0.1), transparent 50%);
+}
+
+.red:nth-child(2n)::before {
+  background-image: linear-gradient(30deg, rgba(189, 21, 11, 0.1), transparent 50%);
+}
+
+.yellow .postcard__title:hover {
+  color: #bdbb49;
+}
+
+.yellow .postcard__bar {
+  background-color: #bdbb49;
+}
+
+.yellow::before {
+  background-image: linear-gradient(-30deg, rgba(189, 187, 73, 0.1), transparent 50%);
+}
+
+.yellow:nth-child(2n)::before {
+  background-image: linear-gradient(30deg, rgba(189, 187, 73, 0.1), transparent 50%);
+}
+
+@media screen and (min-width: 769px) {
+  .green::before {
+    background-image: linear-gradient(-80deg, rgba(121, 221, 9, 0.1), transparent 50%);
+  }
+
+  .green:nth-child(2n)::before {
+    background-image: linear-gradient(80deg, rgba(121, 221, 9, 0.1), transparent 50%);
+  }
+
+  .blue::before {
+    background-image: linear-gradient(-80deg, rgba(0, 118, 189, 0.1), transparent 50%);
+  }
+
+  .blue:nth-child(2n)::before {
+    background-image: linear-gradient(80deg, rgba(0, 118, 189, 0.1), transparent 50%);
+  }
+
+  .red::before {
+    background-image: linear-gradient(-80deg, rgba(189, 21, 11, 0.1), transparent 50%);
+  }
+
+  .red:nth-child(2n)::before {
+    background-image: linear-gradient(80deg, rgba(189, 21, 11, 0.1), transparent 50%);
+  }
+
+  .yellow::before {
+    background-image: linear-gradient(-80deg, rgba(189, 187, 73, 0.1), transparent 50%);
+  }
+
+  .yellow:nth-child(2n)::before {
+    background-image: linear-gradient(80deg, rgba(189, 187, 73, 0.1), transparent 50%);
+  }
+}
+
+
+.dropdown-content li{
+    background-color:#000 !important;
+}
+
+.footer-head{
+	    color:white;
+	    font-size:1.5rem;
+	}
+
+    </style>
+</head>
+<body>
+   <div class="header">
+    <div class="nav-wrapper">
+      <div class="logo-container">
+       <a href="/"><img src="./img/logoo.png" class="img-fluid" alt="logo"></a>
+      </div>
+      <nav>
+        <input class="hidden" type="checkbox" id="menuToggle">
+        <label class="menu-btn" for="menuToggle">
+          <div class="menu"></div>
+          <div class="menu"></div>
+          <div class="menu"></div>
+        </label>
+        <div class="nav-container">
+          <ul class="nav-tabs" style="border: none; margin-bottom: 0rem;">
+           
+             <li class="nav-tab"><a href="./modular-kitchen.html">Kitchen</a></li>
+               <li class="nav-tab"><a  href="./modular-wardrobe.html">Wardrobe</a></li>
+            <li class="nav-tab"><a href="./services.html" class="dropbtn">Services <i class="fa-solid fa-caret-down"></i></a>
+            
+              <ul class="dropdown-content">
+              <li class="nav-tab"><a  href="#design-consultation" >Design Consultation</a></li>
+              <!--<li class="nav-tab"><a  href="#scroll2">Construction</a></li>-->
+              <li class="nav-tab"><a  href="#wood-craft">Wood Craft</a></li>
+              <li class="nav-tab"><a  href="#false-ceiling">False ceiling</a></li>
+              <li class="nav-tab"><a  href="#flooring">Flooring</a></li>
+              <li class="nav-tab"><a  href="#electrical">Electrical</a></li>
+              <li class="nav-tab"><a  href="#plumbing">Plumbing</a></li>
+              <li class="nav-tab"><a  href="#painting">Painting</a></li>
+              <li class="nav-tab"><a  href="#terrace-gardening">Terrace Gardening</a></li>
+             </ul>
+            </li>
+            
+            <li class="nav-tab"><a href="./about.html">About</a></li>
+            <li class="nav-tab"><a href="./blog.html">Blog</a></li>  
+              <li class="nav-tab"><a href="./contact.html">Contact</a></li>
+           </ul>
+                
+           
+          
+          
+        </div>
+      </nav>
+    </div>
+  </div>
+    
+    
+    
+     <section class="kitchen-baner">
+         
+         <div class="kitchen-form">
+              <div class="form-section">
+                <div class="container-form">
+                  <div class="text">
+                     Contact us
+                  </div>
+                 <form action="# " onsubmit="submitForm()">
+                     <div class="form-row">
+                        <div class="input-data">
+                           <input type="text" id="name" required>
+                           <div class="underliner"></div>
+                           <label>First Name</label>
+                        </div>
+                        <div class="input-data">
+                           <input type="text" id="email" required>
+                           <div class="underliner"></div>
+                           <label>Email Address</label>
+                        </div>
+                     </div>
+                     <div class="form-row">
+                        <div class="input-data">
+                           <input type="text" id="city" required>
+                           <div class="underliner"></div>
+                           <label>City</label>
+                        </div>
+                        <div class="input-data">
+                           <input type="text" id="phone" required>
+                           <div class="underliner"></div>
+                           <label>Phone</label>
+                        </div>
+                     </div>
+                     
+                       <div class="input-data">
+                       <select name="cars" class="carse" id="cars">
+            <option value="" selected disabled>Select Your Services</option>
+         <option value="Modular Kitchen" id="Modular-Kitchen" >Modular Kitchen</option>
+         <option  value="Modular Wardrobe" id="Modular-Wardrobe">Modular Wardrobe</option>
+         <option value="Tv Panel" id="Tv-Panel">Tv Panel</option>
+         <option value="Full House Design" id="house-design">Full House Design</option>
+       </select>
+       </div>
+                      
+                     <div class="form-row">
+                     <div class="input-data textarea">
+                        <textarea rows="8" cols="70" id="msg"  required></textarea>
+                           <label>Write your message</label>
+                       
+                        <div class="underliner"></div>
+                      
+                       
+                        <div class="form-row submit-btn">
+                           <div class="input-data">
+                              <div class="inner"></div>
+                              <input type="submit" value="submit">
+                           </div>
+                        </div>
+                  </form>
+                  </div>
+              </div>
+         </div>
+      </section>
+    
+    <section class="dark">
+	<div class="container py-4">
+		<h1 class="h1 text-center text-white" id="pageHeaderTitle">SERVICES</h1>
+    
+		  <div>
+		<article class="postcard dark blue" id="design-consultation" style="padding-top: 3rem;">
+				<img class="postcard__img" src="./img/modular-kitchen.jpg" alt="Image Title" />
+			<div class="postcard__text">
+				<p class="postcard__title blue">DESIGN CONSULTATION</p>
+				<div class="postcard__preview-txt">
+				    <p style="line-height: 1.7; font-family: 'Open Sans';">
+				      Interior design has no limits. Everyday new range of products and innovative technology is being introduced to the market and here at Axes Modular, our team is well equipped with the latest trends and knowledge from minimalistic to luxury Art Deco, we deliver everything. Our design includes color pallets according to the client personality and moodboards to give you better understanding of themes and, finally our high-quality 3D renders will do the job perfectly for your spaces from wall paint to flooring, false ceiling, wall decor, soft furnishes curtain fabrics we cover it all.  
+				       </p>
+				</div>
+			
+			</div>
+		</article>
+	</div>
+		<br><br>
+		<article class="postcard dark green" id="wood-craft" style="padding-top: 3rem;">
+				<img class="postcard__img" src="./img/wooden-work.png" alt="Image Title" />
+			<div class="postcard__text">
+				<p class="postcard__title green">Wood Craft</p>
+				<div class="postcard__preview-txt">
+				  <p style="line-height: 1.7; font-family: 'Open Sans';">We provide a wide range of solutions when it comes to design spaces. Our manual wood work includes wall panelling, customized furniture, natural wood furniture, Wall partitions, CNC work and a lot more. Where machines can not work Hands can. Our team is equipped with latest tools and technology to create and deliver masterpeices. We do provide custom metal work as well.</p>
+				</div>
+			
+			</div>
+		</article>
+		<br><br>
+		<article class="postcard dark yellow" id="false-ceiling" style="padding-top: 3rem;">
+				<img class="postcard__img" src="./img/fall-celling2.png" alt="Image Title" />
+			<div class="postcard__text">
+				<p class="postcard__title yellow">FALSE CEILING</p>
+				<div class="postcard__preview-txt">
+				   <p style="line-height: 1.7; font-family: 'Open Sans';">False ceiling services can play a significant role in both modular design and interior design by enhancing the aesthetics, functionality, and overall appeal of spaces. Integration of Services like Modular designs often involve integrating various services like lighting, HVAC, and wiring. False ceilings can conceal these services while allowing easy access for maintenance and repairs. Our Designing false ceilings with unique shapes, patterns, or materials can serve as focal points within a room, drawing attention and adding character.</p>
+				</div>
+			
+			</div>
+		</article>
+		<br><br>
+        <article class="postcard dark blue" id="flooring" style="padding-top: 3rem;">
+				<img class="postcard__img" src="./img/flooring.jpg" alt="Image Title" />
+			<div class="postcard__text">
+				<p class="postcard__title blue">FLOORING</p>
+				<div class="postcard__preview-txt">
+				  <p style="line-height: 1.7; font-family: 'Open Sans';">It is the most important part in designing every space. Flooring decides that the space we are going to design is going to be darker or lighter. Every other element we incorporate in any room is based on the color and texture of the flooring. From Tiles to natural stones and engineered wood flooring we cover everything, both for interiors and exteriors.</p>
+		  
+				</div>
+			
+			</div>
+		</article>
+		<br><br>
+        <article class="postcard dark red" id="electrical" style="padding-top: 3rem;">
+				<img class="postcard__img" src="./img/electrical.jpg" alt="Image Title" />
+			<div class="postcard__text">
+				<p class="postcard__title red">ELECTRICAL</p>
+				<div class="postcard__preview-txt">
+				<p style="line-height: 1.7; font-family: 'Open Sans';">At the early stage of construction electrical points, wiring , conduits, wiring for appliances and other devices should be finalised for the best functionality and ergonomics. We provide the best team of designers and electricians to keep this major task hassle free and to ensure quality.</p>
+				</div>
+			
+			</div>
+		</article>
+		<br><br>
+        <article class="postcard dark green" id="plumbing" style="padding-top: 3rem;">
+				<img class="postcard__img" src="./img/plumbing.jpg" alt="Image Title" />
+			<div class="postcard__text">
+				<p class="postcard__title green">PLUMBING</p>
+				<div class="postcard__preview-txt">
+				    <p style="line-height: 1.7; font-family: 'Open Sans';">For smooth flow of water throughout your entire building we have very strict parameteres to ensure quality work. Our team will take care of the functionality of all your bathrooms and every appliance that uses water. </p>
+				</div>
+			
+			</div>
+		</article>
+		<br><br>
+		 <article class="postcard dark yellow" id="painting" style="padding-top: 3rem;">
+				<img class="postcard__img" src="./img/painting.jpg" alt="Image Title" />
+			<div class="postcard__text">
+				<p class="postcard__title yellow">PAINTING</p>
+				<div class="postcard__preview-txt">
+				    <p style="line-height: 1.7; font-family: 'Open Sans';">Wall painting isn't just about painting the walls with paint, it is a process to make your room look alive. We use a wide range of wall panelling, wall textures, wallpapers and wall cladding to enhance the beauty of your spaces. Every color is beautiful but every color has it's own place, choosing the best color can be too easy and too difficult at times and that's where our team comes to the play. Happy Painting!</p>
+				</div>
+			
+			</div>
+		</article>
+        <article class="postcard dark yellow" id="terrace-gardening" style="padding-top: 3rem;">
+				<img class="postcard__img" src="./img/tarace gardning.jpg" alt="Image Title" />
+			<div class="postcard__text">
+				<p class="postcard__title yellow">TERRACE GARDENING</p>
+				<div class="postcard__preview-txt">
+				    <p style="line-height: 1.7; font-family: 'Open Sans';">Who woudln't like a beautiful green plantation full of beautiful flowers and frangrances. We design the best indoor and outdoor landscapes in most clean and ergonomic way. For those who are really busy with their lifestyle and do not have regular time to maintain their planters, we use various speices of plants which require nominal maintenance. Try out loud!	</p>
+				</div>
+			</div>
+		</article>
+	</div>
+</section>
+
+
+     
+       
+       <!--==============Call Section=========================-->
+       
+ <section class="call-buton"><a class="cc-calto-action-ripple" href="tel:+91 90159 07449"><i class="fa fa-phone"></i><span class="num"></span>
+</a>
+</section>
+
+
+ <!-- ==================
+          Footer Section
+        =================== -->
+ <footer class="footer-section">
+    <div class="container-fluid" id="footer-wid">
+      <div class="footer-content pt-5 pb-5">
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="footer-widget">
+              <div class="footer-logo">
+                <div class="footer-widget-heading" >
+                <p>About Us</p>
+              </div>
+                 
+              </div>
+              <div class="footer-text">
+                <p>Welcome to Axes Modular, where we provide complete interior solutions that are tailored to your unique style and preferences. Our team of experts is dedicated to delivering exceptional craftsmanship and attention to detail in every project we undertake. From concept to completion, we work closely with our clients to ensure that their vision is brought to life. </p>
+              </div>
+              <div class="footer-social-icon">
+                <span>Follow us</span>
+               <a href="https://www.facebook.com/people/Axes-Modular/100094410811241/"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                  <a href="https://www.instagram.com/axes_modular_official/"><i class="fab fa-instagram instagram-bg" style="    background: #d62976;"></i></a>
+                                     <a href="https://www.linkedin.com/company/axes-modular/"><i class="fab fa-linkedin linkedin-bg"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <p class="footer-head">Useful Links</p>
+                 <ul class="foter-home">
+                <li><a href="/">Home</a></li>
+                <li><a href="./privacy.html">Policy</a></li>
+                <li><a href="./about.html">about</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./services.html">services</a></li>
+              
+              </ul>
+              </div>
+             
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="footer-widget">
+              <div class="footer-widget-heading">
+                <p class="footer-head">Contact</p>
+              </div>
+              <div class="footer-text mb-25">
+                 <p><i class="fas fa-home mr-3"></i> A-62, Sector-65 Noida, Uttar Pradesh 201301</p>
+              <p><i class="fas fa-envelope mr-3"></i> info@axesmodular.com</p>
+              <p><i class="fas fa-phone mr-3"></i> +91 90159 07449</p>
+             
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 col-lg-6 text-center text-lg-left">
+            <div class="copyright-text">
+              <p>Copyright &copy; 2018, All Right Reserved <a href="#">Axes Modular</a></p>
+            </div>
+          </div>
+          </div>
+      </div>
+    </div>
+   
+   
+     
+  </footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+    integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./js/main.js"></script>
+  <script>
+       // desktop dropdown header js
+
+var dropdownButton = document.querySelector(".dropbtn");
+var dropdownContent = document.querySelector(".dropdown-content");
+
+// Add event listeners
+dropdownButton.addEventListener("mouseover", showDropdown);
+dropdownButton.addEventListener("mouseout", hideDropdown);
+dropdownContent.addEventListener("mouseover", showDropdown);
+dropdownContent.addEventListener("mouseout", hideDropdown);
+
+// Event handler functions
+function showDropdown() {
+  dropdownContent.classList.add("show");
+ 
+}
+
+function hideDropdown() {
+  dropdownContent.classList.remove("show");
+}
+  </script>
+   
+</body>
+</html>
